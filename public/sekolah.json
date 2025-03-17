@@ -1,0 +1,140 @@
+{
+  "guru": [
+    {
+      "id": 1,
+      "name": "Kamsiyah S.Pd.Sd",
+      "image": "guru-1.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 2,
+      "name": "Yanah S.Pd.Sd",
+      "image": "guru-2.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 3,
+      "name": "Cicih Rostini S.Pd. Sd",
+      "image": "guru-3.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 4,
+      "name": "Eddy Suryadi S.Pd.I",
+      "image": "guru-4.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 5,
+      "name": "Nur Asiyah S.Pd",
+      "image": "guru-5.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 6,
+      "name": "Nurlela S.Pd.Sd",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 7,
+      "name": "Siti Maryam S.Pd.Sd",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 8,
+      "name": "Ida Zahidah S.Pd.Sd",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 9,
+      "name": "Mugeni, S.Pd",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 10,
+      "name": "Hermawan Sidik Bayu  S.Pd.Sd",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 11,
+      "name": "Fadlie Ibnu Saufiq S.Pd.Sd",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 12,
+      "name": "Lisnawati",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 13,
+      "name": "Muhidin",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 14,
+      "name": "Robbi Hilmanto",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 15,
+      "name": "Syahbilla Suryaningsih",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 16,
+      "name": "Magda Indri Yani S.Pd",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    },
+    {
+      "id": 17,
+      "name": "Razu Al Ma'mun S.M",
+      "image": "guru-6.png",
+      "mapel": "Bahasa Indonesia"
+    }
+  ],
+  "kegiatan": [
+    {
+      "id": 1,
+      "image": "kegiatan/kegiatan1.jpg",
+      "nama_kegiatan": "Tari Tradisional"
+    },
+    {
+      "id": 2,
+      "nama_kegiatan": "Pramuka",
+      "image": "kegiatan/kegiatan2.jpg"
+    },
+    {
+      "id": 3,
+      "nama_kegiatan": "Jum'at Berkah",
+      "image": "kegiatan/kegiatan7.jpg"
+    },
+    {
+      "id": 4,
+      "nama_kegiatan": "Upacara Bendera",
+      "image": "kegiatan/kegiatan6.jpg"
+    }
+  ],
+  "perpustakaan": [
+    {
+      "id": 1,
+      "image": "perpustakaan/Perpus-1.jpeg",
+      "title": "Perpustakaan Sdn 5 Citayam"
+    },
+    {
+      "id": 2,
+      "title": "Perpustakaan Sdn 5 Citayam",
+      "image": "perpustakaan/Perpus-2.jpeg"
+    }
+  ]
+}
