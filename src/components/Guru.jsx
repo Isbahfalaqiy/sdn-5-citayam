@@ -1,20 +1,13 @@
 import React, { useEffect, useState } from "react";
 import guruAll from "../assets/images/all teacher.jpg";
+import axios from "axios";
 function Guru() {
   const [guru, setGuru] = useState([]);
 
   useEffect(() => {
-    const fetchGuru = async () => {
-      try {
-        const request = await fetch("http://localhost:3000/guru"); // Sesuai dengan JSON Server di port 3000
-        const data = await request.json();
-        setGuru(data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    fetchGuru();
+    axios.get("/public/sekolah.json").then((response) => {
+      setGuru(response.data.guru);
+    });
   }, []);
 
   return (

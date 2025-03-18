@@ -3,21 +3,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import axios from "axios";
 
 function Kegiatan() {
   const [kegiatan, setKegiatan] = useState([]);
 
   useEffect(() => {
-    const fetchKegiatan = async () => {
-      try {
-        const response = await fetch("http://localhost:3000/kegiatan");
-        const data = await response.json();
-        setKegiatan(data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-    fetchKegiatan();
+    axios.get("/public/sekolah.json").then((response) => {
+      setKegiatan(response.data.kegiatan);
+    });
   }, []);
 
   const CustomPrevArrow = (props) => (

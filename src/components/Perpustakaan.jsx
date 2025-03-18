@@ -3,21 +3,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import axios from "axios";
 
 function Perpustakaan() {
   const [perpustakaan, setPerpustakaan] = useState([]); // Menggunakan huruf kecil untuk konsistensi
 
   useEffect(() => {
-    const fetchPerpustakaan = async () => {
-      try {
-        const response = await fetch("http://localhost:3000/perpustakaan");
-        const data = await response.json();
-        setPerpustakaan(data); // Menggunakan setPerpustakaan untuk menyimpan data
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-    fetchPerpustakaan();
+    axios.get("/public/sekolah.json").then((response) => {
+      setPerpustakaan(response.data.perpustakaan);
+    });
   }, []);
 
   const CustomPrevArrow = (props) => (
