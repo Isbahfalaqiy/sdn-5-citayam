@@ -5,7 +5,7 @@ function Guru() {
   const [guru, setGuru] = useState([]);
 
   useEffect(() => {
-    axios.get("/public/sekolah.json").then((response) => {
+    axios.get("/sekolah.json").then((response) => {
       setGuru(response.data.guru);
     });
   }, []);

@@ -9,7 +9,7 @@ function Kegiatan() {
   const [kegiatan, setKegiatan] = useState([]);
 
   useEffect(() => {
-    axios.get("/public/sekolah.json").then((response) => {
+    axios.get("/sekolah.json").then((response) => {
       setKegiatan(response.data.kegiatan);
     });
   }, []);

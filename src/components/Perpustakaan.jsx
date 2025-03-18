@@ -9,7 +9,7 @@ function Perpustakaan() {
   const [perpustakaan, setPerpustakaan] = useState([]); // Menggunakan huruf kecil untuk konsistensi
 
   useEffect(() => {
-    axios.get("/public/sekolah.json").then((response) => {
+    axios.get("/sekolah.json").then((response) => {
       setPerpustakaan(response.data.perpustakaan);
     });
   }, []);
