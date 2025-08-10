@@ -1,15 +1,16 @@
-const jsonServer = require("json-server");
+const fs = require("fs");
 const path = require("path");
 
-const server = jsonServer.create();
-const router = jsonServer.router(
-  path.join(__dirname, "..", "public", "sekolah.json")
-);
-const middlewares = jsonServer.defaults();
-
-server.use(middlewares);
-server.use(router);
-
 module.exports = (req, res) => {
-  server(req, res);
+  try {
+    // Ambil path file JSON di folder public
+    const filePath = path.join(process.cwd(), "public", "sekolah.json");
+    const jsonData = fs.readFileSync(filePath, "utf8");
+    const data = JSON.parse(jsonData);
+
+    res.setHeader("Content-Type", "application/json");
+    res.status(200).json(data);
+  } catch (error) {
+    res.status(500).json({ error: "Gagal membaca data" });
+  }
 };
