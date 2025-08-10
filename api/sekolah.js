@@ -8,5 +8,4 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(router);
 
-// Export sebagai handler untuk Vercel
 module.exports = server;

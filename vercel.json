@@ -1,15 +1,11 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "api/sekolah.js",
-      "use": "@vercel/node"
-    }
+    { "src": "api/sekolah.js", "use": "@vercel/node" },
+    { "src": "index.html", "use": "@vercel/static" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/sekolah.js"
-    }
+    { "src": "/api/sekolah", "dest": "api/sekolah.js" },
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
