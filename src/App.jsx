@@ -1,82 +1,81 @@
 import React, { useRef } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Guru from "./components/Guru";
-import Kegiatan from "./components/Kegiatan";
 import Perpustakaan from "./components/Perpustakaan";
+import Berita from "./components/Berita";
+import Faq from "./components/Faq";
+import BeritaDetails from "./components/BeritaDetails";
 import Footer from "./components/Footer";
+
 import "./App.css";
 
 function App() {
-  // Buat referensi untuk bagian About, Guru, Kegiatan, Perpustakaan, dan Footer
-  const navbarRef = useRef(null);
   const aboutRef = useRef(null);
   const guruRef = useRef(null);
-  const kegiatanRef = useRef(null);
   const perpustakaanRef = useRef(null);
+  const faqRef = useRef(null);
   const footerRef = useRef(null);
 
-  // Fungsi untuk scroll ke bagian About
-  const scrollToNavbar = () => {
-    navbarRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-  const scrollToAbout = () => {
+  const scrollToAbout = () =>
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
-  // Fungsi untuk scroll ke bagian Guru
-  const scrollToGuru = () => {
+  const scrollToGuru = () =>
     guruRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-  const scrollToKegiatan = () => {
-    kegiatanRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-  const scrollToPerpustakaan = () => {
+  const scrollToPerpustakaan = () =>
     perpustakaanRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-  const scrollToFooter = () => {
+  const scrollToFaq = () =>
+    faqRef.current?.scrollIntoView({ behavior: "smooth" });
+  const scrollToFooter = () =>
     footerRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
-    <div>
-      {/* Navbar menerima dua props secara terpisah */}
-      <Navbar
-        scrollToAbout={scrollToAbout}
-        scrollToGuru={scrollToGuru}
-        scrollToKegiatan={scrollToKegiatan}
-        scrollToPerpustakaan={scrollToPerpustakaan}
-        scrollToFooter={scrollToFooter}
-      />
+    <Router>
+      <Routes>
+        {/* Home Page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar
+                scrollToAbout={scrollToAbout}
+                scrollToGuru={scrollToGuru}
+                scrollToPerpustakaan={scrollToPerpustakaan}
+                scrollToFaq={scrollToFaq}
+                scrollToFooter={scrollToFooter}
+              />
+              <Hero scrollToAbout={scrollToAbout} />
+              <section ref={aboutRef}>
+                <About />
+              </section>
+              <section ref={guruRef}>
+                <Guru />
+              </section>
 
-      <Hero scrollToAbout={scrollToAbout} />
+              <section ref={perpustakaanRef}>
+                <Perpustakaan />
+              </section>
+              <section ref={faqRef}>
+                <Faq />
+              </section>
+              <div className="text-center my-6">
+                <a href="/berita" className="text-blue-600 underline">
+                  Lihat Berita
+                </a>
+              </div>
+              <footer ref={footerRef}>
+                <Footer />
+              </footer>
+            </>
+          }
+        />
 
-      {/* About Section */}
-      <section ref={aboutRef}>
-        <About />
-      </section>
-
-      {/* Guru Section */}
-      <section ref={guruRef}>
-        <Guru />
-      </section>
-
-      {/* Kegiatan Section */}
-      <section ref={kegiatanRef}>
-        <Kegiatan />
-      </section>
-
-      {/* Perpustakaan Section */}
-      <section ref={perpustakaanRef}>
-        <Perpustakaan />
-      </section>
-
-      {/* Footer Section */}
-      <footer ref={footerRef}>
-        <Footer />
-      </footer>
-    </div>
+        {/* Halaman Berita */}
+        <Route path="/berita" element={<Berita />} />
+        <Route path="/berita/:id" element={<BeritaDetails />} />
+      </Routes>
+    </Router>
   );
 }
 

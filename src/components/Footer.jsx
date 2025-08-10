@@ -28,9 +28,11 @@ function Footer() {
 
         <div className="md:w-1/2 flex justify-center md:justify-end mt-5 md:mt-0">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.437182242353!2d106.74004507806896!3d-6.444185396752571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e917e21cd277%3A0xe4a59f5d092d36ac!2sKampung%20bulu%20rt03%2F04%20DS%20Citayam%20KC%20tajurhalang%20bogor!5e0!3m2!1sen!2sid!4v1741938308543!5m2!1sen!2sid"
-            className="w-full md:w-[85%] lg:w-[70%] h-[250px] md:h-[300px] lg:h-[350px] border-0 rounded-lg shadow-lg"
-            allowFullScreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.585553391917!2d106.76134647380525!3d-6.4472224935441265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e83689583a13%3A0x2893ed7a2261aa8b!2sSDN%20Citayam%2005!5e0!3m2!1sen!2sid!4v1748972787101!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            style={{ border: 0 }} // ✅ perbaikan disini
+            allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>

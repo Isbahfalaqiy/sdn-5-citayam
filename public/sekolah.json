@@ -136,5 +136,56 @@
       "title": "Perpustakaan Sdn 5 Citayam",
       "image": "perpustakaan/Perpus-2.jpeg"
     }
+  ],
+
+  "blogBerita": [
+    {
+      "id": 1,
+      "title": "Lomba 17 Agustus",
+      "date": "19 Agustus 2024",
+      "deskripsi": "Dalam rangka memperingati HUT RI ke-79, SDN 05 Citayam mengadakan berbagai lomba antar kelas yang meriah dan edukatif.",
+      "deskripsiDetail": "Dalam rangka memperingati Hari Ulang Tahun Republik Indonesia yang ke-79, SDN 05 Citayam menyelenggarakan berbagai perlombaan antar kelas yang berlangsung dengan sangat meriah. Acara ini diikuti oleh seluruh siswa dari kelas 1 hingga kelas 6 dengan penuh semangat dan antusiasme. Perlombaan yang diadakan meliputi lomba makan kerupuk, balap karung, tarik tambang, lomba memasukkan pensil ke dalam botol, serta lomba estafet air. Kegiatan ini tidak hanya bertujuan untuk menyemarakkan HUT RI, tetapi juga untuk menumbuhkan rasa nasionalisme, kekompakan, dan sportivitas di kalangan siswa. Guru dan orang tua juga turut hadir dan berpartisipasi dalam menyukseskan acara. Acara ditutup dengan pembagian hadiah bagi para pemenang serta pertunjukan seni dari siswa.",
+      "image": "kegiatan/kegiatan1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Kegiatan Jambore",
+      "date": "25 Oktober 2024",
+      "deskripsi": "Peserta Pramuka SDN 05 Citayam mengikuti kegiatan Jambore dengan semangat dan keceriaan di alam terbuka.",
+      "deskripsiDetail": "Pada tanggal 25 Oktober 2024, peserta Pramuka dari SDN 05 Citayam mengikuti kegiatan Jambore yang dilaksanakan di area perkemahan alam terbuka. Kegiatan ini bertujuan untuk membentuk karakter siswa yang mandiri, bertanggung jawab, serta mencintai alam. Selama Jambore, siswa mengikuti berbagai kegiatan seperti mendirikan tenda, api unggun, lomba yel-yel, jelajah alam, dan pelatihan dasar survival. Para siswa menunjukkan semangat dan kerja sama yang tinggi dalam setiap kegiatan. Selain meningkatkan keterampilan kepramukaan, Jambore ini juga mempererat kebersamaan antar siswa dan pembina Pramuka.",
+      "image": "kegiatan/kegiatan2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Kegiatan Shalat Dhuha",
+      "date": "Setiap Hari Jumat",
+      "deskripsi": "Setiap hari Jumat, siswa SDN 05 Citayam rutin melaksanakan Shalat Dhuha bersama di lingkungan sekolah.",
+      "deskripsiDetail": "Sebagai bagian dari pembinaan karakter dan peningkatan spiritualitas, setiap hari Jumat siswa SDN 05 Citayam rutin melaksanakan Shalat Dhuha bersama. Kegiatan ini diikuti oleh seluruh siswa dan guru, dilaksanakan di aula atau mushola sekolah. Setelah shalat berjamaah, biasanya dilanjutkan dengan kultum (kuliah tujuh menit) yang disampaikan oleh guru atau siswa terpilih. Tujuan dari kegiatan ini adalah untuk menanamkan kebiasaan ibadah sejak dini, meningkatkan keimanan, dan menciptakan suasana religius di lingkungan sekolah.",
+      "image": "kegiatan/kegiatan7.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Outing Class",
+      "date": "19 Agustus 2024",
+      "deskripsi": "Dalam rangka memperingati HUT RI ke-79, SDN 05 Citayam mengadakan berbagai lomba antar kelas yang meriah dan edukatif.",
+      "deskripsiDetail": "Perlombaan 17 Agustus di SDN 05 Citayam tahun ini berlangsung meriah dan penuh semangat. Meskipun lomba ini juga diadakan tahun-tahun sebelumnya, setiap tahunnya selalu ada kejutan dan kreativitas baru dari panitia. Kegiatan ini dimaksudkan untuk memperkuat jiwa nasionalisme, mempererat persaudaraan antar siswa, serta melatih sportivitas. Orang tua siswa juga diundang untuk menyaksikan dan beberapa bahkan ikut serta dalam lomba untuk orang tua. Antusiasme peserta dan penonton menjadikan suasana penuh kebahagiaan dan kebanggaan.",
+      "image": "kegiatan/kegiatan5.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Study Tour Planet ",
+      "date": "25 Oktober 2024",
+      "deskripsi": "Peserta Pramuka SDN 05 Citayam mengikuti kegiatan Jambore dengan semangat dan keceriaan di alam terbuka.",
+      "deskripsiDetail": "Kegiatan Jambore kali ini tidak hanya diisi dengan aktivitas fisik dan permainan, tetapi juga pelatihan kepemimpinan, diskusi nilai-nilai Pramuka, dan sesi refleksi malam. Seluruh peserta tidur di tenda dan memasak secara mandiri dengan bahan yang disediakan panitia. Ini memberi pengalaman nyata tentang pentingnya kerja sama tim, rasa tanggung jawab, dan keberanian mengambil keputusan. Suasana keakraban semakin terasa saat kegiatan api unggun malam, di mana siswa menampilkan kreativitas mereka melalui pentas seni dan cerita inspiratif.",
+      "image": "kegiatan/kegiatan4.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Upacara Bendera",
+      "date": "Setiap Hari Jumat",
+      "deskripsi": "Setiap hari Jumat, siswa SDN 05 Citayam rutin melaksanakan Shalat Dhuha bersama di lingkungan sekolah.",
+      "deskripsiDetail": "Kegiatan Shalat Dhuha di SDN 05 Citayam merupakan bagian dari program pembiasaan ibadah dan karakter Islami. Shalat Dhuha berjamaah ini diawali dengan dzikir bersama, dilanjutkan shalat, lalu ditutup dengan tausiah singkat. Guru memberikan motivasi rohani agar siswa lebih semangat dalam belajar dan berakhlak mulia. Kegiatan ini mendapat respons positif dari orang tua, karena membantu membentuk kebiasaan baik sejak usia dini. Selain itu, kegiatan ini juga menciptakan suasana tenang dan damai di sekolah setiap akhir pekan.",
+      "image": "kegiatan/kegiatan6.jpg"
+    }
   ]
 }

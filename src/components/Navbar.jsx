@@ -5,8 +5,9 @@ import logosd from "../assets/images/logo-sd.jpg";
 function Navbar({
   scrollToAbout,
   scrollToGuru,
-  scrollToKegiatan,
   scrollToPerpustakaan,
+  scrollToBerita,
+  scrollToFaq,
   scrollToFooter,
 }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -104,15 +105,14 @@ function Navbar({
           </li>
           <li className="py-3 lg:py-0 text-center hover:bg-blue-50 lg:hover:bg-transparent">
             <a
-              role="button"
-              onClick={scrollToKegiatan}
+              href="/berita"
               className={`cursor-pointer hover:text-birutua block px-4 ${
                 scrolling
                   ? "text-black lg:text-black"
                   : "text-black lg:text-white"
               }`}
             >
-              Kegiatan
+              Berita
             </a>
           </li>
           <li className="py-3 lg:py-0 text-center hover:bg-blue-50 lg:hover:bg-transparent">
@@ -126,6 +126,19 @@ function Navbar({
               }`}
             >
               Perpustakaan
+            </a>
+          </li>
+          <li className="py-3 lg:py-0 text-center hover:bg-blue-50 lg:hover:bg-transparent">
+            <a
+              role="button"
+              onClick={scrollToFaq}
+              className={`cursor-pointer hover:text-birutua block px-4 ${
+                scrolling
+                  ? "text-black lg:text-black"
+                  : "text-black lg:text-white"
+              }`}
+            >
+              FAQ
             </a>
           </li>
         </ul>
